@@ -1,0 +1,66 @@
+.main-text {
+  font-size: 96px;
+  font-weight: bold;
+  color: white;
+  width: 70%;
+  text-align: center;
+}
+
+.secondary-text {
+  background: linear-gradient(0.25turn, #00ff9d, #ebf8e1, #cf5cff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn {
+  width: 191px;
+  height: 56px;
+  border: none;
+  background-color: #00ff9d;
+  border-radius: 5%;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn-container {
+  padding-top: 5%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-items {
+  display: flex;
+  justify-content: center;
+}
+
+/* Este es el contenedor que envuelve el título, el párrafo y los botones */
+.hero-container {
+  display: flex;
+  flex-direction: column; /* Alinea los elementos uno debajo del otro */
+  align-items: center;    /* Centra los bloques horizontalmente */
+  text-align: center;      /* Centra el texto dentro de los párrafos */
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-text {
+  font-size: 96px;
+  font-weight: bold;
+  color: white;
+  width: 100%;            /* Asegura que ocupe el ancho para poder centrarse */
+  text-align: center;      /* Fuerza el centrado del texto del título */
+  margin-bottom: 20px;
+}
+
+/* El párrafo de descripción necesita un ancho máximo para no verse infinito */
+.description-text {
+  max-width: 800px;       /* Ajusta este valor según tu gusto */
+  margin: 0 auto 40px auto; /* Centra el bloque y da espacio hacia los botones */
+  text-align: center;
+  line-height: 1.6;
+}
+
